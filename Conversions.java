@@ -17,10 +17,10 @@ public class Conversions
         System.out.println("4. Meters to Feet");
         System.out.println("5. Ounces to Milliliters");
         System.out.println("6. Milliliters to Ounces");
-        System.out.println(x:"7. Hours to Minutes");
-        System.out.println(x:"8. Minutes to Hours");
-        System.out.println(x:"9. Feet to Miles");
-        System.out.println(x:"10. Miles to Feet");
+        System.out.println("7. Hours to Minutes");
+        System.out.println("8. Minutes to Hours");
+        System.out.println("9. Feet to Miles");
+        System.out.println("10. Miles to Feet");
         //Add 2 more conversions, each both ways, to add choices 7, 8, 9, and 10.
         //You can add even more if you would like.
 
@@ -37,7 +37,7 @@ public class Conversions
         }
         if (selection == 2)
         {
-            System.out.println(x:"Enter Fahrenheit: ");
+            System.out.println("Enter Fahrenheit: ");
             double fahrenheit = keyboard.nextDouble();
             keyboard.nextLine();
             double celsius = (fahrenheit - 32) * (5.0/9.0);
@@ -62,7 +62,7 @@ public class Conversions
         }
         if (selection == 5)
         {
-            System.out.println(x:"Enter Ounces: ");
+            System.out.println("Enter Ounces: ");
             double ounces = keyboard.nextDouble();
             keyboard.nextLine();
             double milliliters = ounces * 29.57353;
@@ -70,7 +70,7 @@ public class Conversions
         }
         if (selection == 6)
         {
-            System.out.println(x:"Enter Milliliters: ");
+            System.out.println("Enter Milliliters: ");
             double milliliters = keyboard.nextDouble();
             keyboard.nextLine();
             double ounces = milliliters / 29.57353;
@@ -78,7 +78,7 @@ public class Conversions
         }
         if (selection == 7)
         {
-            System.out.println(x:"Enter Hours: ");
+            System.out.println("Enter Hours: ");
             double hours = keyboard.nextDouble();
             keyboard.nextLine();
             double minutes = hours * 60.0;
@@ -86,7 +86,7 @@ public class Conversions
         }
         if (selection == 8)
         {
-            System.out.println(x:"Enter Minutes: ");
+            System.out.println("Enter Minutes: ");
             double minutes = keyboard.nextDouble();
             keyboard.nextLine();
             double hours = minutes / 60.0;
@@ -94,7 +94,7 @@ public class Conversions
         }
         if (selection == 9)
         {
-            System.out.println(x:"Enter Feet: ");
+            System.out.println("Enter Feet: ");
             double feet = keyboard.nextDouble();
             keyboard.nextLine();
             double miles = feet * 5280.0;
@@ -102,7 +102,7 @@ public class Conversions
         }
         if (selection == 10)
         {
-            System.out.println(x:"Enter Miles: ");
+            System.out.println("Enter Miles: ");
             double miles = keyboard.nextDouble();
             keyboard.nextLine();
             double feet = miles / 5280.0;
