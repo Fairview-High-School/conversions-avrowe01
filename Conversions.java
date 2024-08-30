@@ -58,7 +58,7 @@ public class Conversions
             double meters = keyboard.nextDouble();
             keyboard.nextLine();
             double feet = meters / 0.3048;
-            System.out.println(meters + "meters is " + feet + " feet");
+            System.out.println(meters + " meters is " + feet + " feet");
         }
         if (selection == 5)
         {
@@ -66,7 +66,7 @@ public class Conversions
             double ounces = keyboard.nextDouble();
             keyboard.nextLine();
             double milliliters = ounces * 29.57353;
-            System.out.println(ounces + "ounces is " + milliliters + " milliliters");
+            System.out.println(ounces + " ounces is " + milliliters + " milliliters");
         }
         if (selection == 6)
         {
@@ -74,7 +74,7 @@ public class Conversions
             double milliliters = keyboard.nextDouble();
             keyboard.nextLine();
             double ounces = milliliters / 29.57353;
-            System.out.println(milliliters + "milliliters is " + ounces + " ounces");
+            System.out.println(milliliters + " milliliters is " + ounces + " ounces");
         }
         if (selection == 7)
         {
@@ -82,7 +82,7 @@ public class Conversions
             double hours = keyboard.nextDouble();
             keyboard.nextLine();
             double minutes = hours * 60.0;
-            System.out.println(hours + "hours is " + minutes + " minutes");
+            System.out.println(hours + " hours is " + minutes + " minutes");
         }
         if (selection == 8)
         {
@@ -90,23 +90,23 @@ public class Conversions
             double minutes = keyboard.nextDouble();
             keyboard.nextLine();
             double hours = minutes / 60.0;
-            System.out.println(minutes + "minutes is " + hours + " hours");
+            System.out.println(minutes + " minutes is " + hours + " hours");
         }
         if (selection == 9)
         {
             System.out.println("Enter Feet: ");
             double feet = keyboard.nextDouble();
             keyboard.nextLine();
-            double miles = feet * 5280.0;
-            System.out.println(feet + "feet is " + miles + " miles");
+            double miles = feet / 5280.0;
+            System.out.println(feet + " feet is " + miles + " miles");
         }
         if (selection == 10)
         {
             System.out.println("Enter Miles: ");
             double miles = keyboard.nextDouble();
             keyboard.nextLine();
-            double feet = miles / 5280.0;
-            System.out.println(miles + "miles is " + feet + " feet");
+            double feet = miles * 5280.0;
+            System.out.println(miles + " miles is " + feet + " feet");
         }
         //add more if statements here.
     }
